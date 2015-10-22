@@ -20,7 +20,6 @@ public class insertionSort {
         Scanner input = new Scanner(System.in);
         insertionSort test = new insertionSort();
         int[] n = {60, 8, 32, 1, 45, 78, 34, 7};//n array with values    
-//        test.insertionSort(n);//sort the numbers
         test.insertionSort(n);
 
         for (int i = 0; i < n.length; i++) {// i will equal the length of the array
